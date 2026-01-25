@@ -1,0 +1,42 @@
+body {
+    background-color: #000;
+    color: #24DB0F;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    border: 1px solid #24DB0F;
+    padding: 30px;
+    box-shadow: 0 0 10px #24DB0F;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #24DB0F;
+    text-decoration: none;
+    border: 1px solid #24DB0F;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    background: #24DB0F;
+    color: #000;
+}
+
+.command-list {
+    list-style: none; 
+    padding: 0;
+    margin: 20px 0;
+}
+
+
